@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(130, 190, 130);
+}
+#pannel1{
+   overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+#ptop{
+    padding: 0 30%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(99, 143, 99);
+}
+
+.elem{
+    width: 10%;
+    gap: 5px;
+    display: flex;
+    /* background-color: red; */
+}
+
+
+.box{
+    font-size: 20px;
+    color: rgb(45, 112, 45);
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+ 
+#pbottom{
+    width: 100%;
+    flex-wrap: wrap;
+    height: calc(100% - 100px);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    /* background-color: red; */
+    
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(64, 104, 64);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(99, 143, 99);
+}
